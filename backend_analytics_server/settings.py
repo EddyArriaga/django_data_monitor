@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+API_URL = 'https://jsonplaceholder.typicode.com/posts'
+
 
 # Application definition
 
