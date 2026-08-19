@@ -1,9 +1,11 @@
 from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 
 import requests
 from django.conf import settings
 
 # Create your views here.
+@login_required
 def index(request):
 
     response = requests.get(settings.API_URL)  # URL de la API
