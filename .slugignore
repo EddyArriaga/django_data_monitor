@@ -1,0 +1,12 @@
+# No incluir archivos innecesarios en el slug de Railway
+env/
+.venv
+venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+.git
+.gitignore
+README.md
+.env
+*.log
